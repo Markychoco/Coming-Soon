@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    	<title>Coming Soon Template</title>
+</head>
+<body>
+<div class="text">
+  <div class="social">
+    <h4>We should probably be friends.</h4>
+    <a href="#" class="entypo-dribbble"></a>
+    <a href="#" class="entypo-twitter"></a>
+    <a href="#" class="entypo-facebook"></a>
+    <a href="#" class="entypo-gplus"></a>
+    <a href="#" class="entypo-linkedin"></a>
+    <a href="#" class="entypo-paper-plane"></a>
+  </div>
+
+  <h2 class="rw-sentence">
+    <span>The new site is &hellip; </span>
+    <div class="rw-words rw-words-1">
+      <span>easy on the eyes</span>
+      <span>super clean</span>
+      <span>taking forever</span>
+      <span>a labor of <i class="entypo-heart"></i></span>
+      <span>coming soon</span>
+    </div>
+  </h2>
+</div>
+<script>
+  
+    $('.social').hide(function() {
+  $(this).delay(12000).fadeIn(800);
+});
+
+$('.rw-sentence')
+  .delay(10000)
+  .fadeOut(400);
+</script>
+	
+</body>
+</html>
